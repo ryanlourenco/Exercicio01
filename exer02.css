@@ -1,0 +1,15 @@
+body {
+background-color: lightcyan;
+
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centro {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
