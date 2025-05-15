@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 01</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercício 01</title>
+  <link rel="stylesheet" href="js.css" />
+  <script src="js.js"></script>
 </head>
 <body>
-    
+
+  <!-- Alerta -->
+  <button onclick="alert('olá')">Clique aqui</button>
+  <br><br><br>
+
+  <!-- Altera o texto -->
+  <p id="meuParagrafo">Este é o texto original.</p>
+  <input type="text" id="novoInput" placeholder="Digite algo..." />
+  <button onclick="alterarTexto()">Alterar texto</button>
+  <br><br><br><br>
+
+  <!-- Mostrar no console -->
+  <input type="text" id="meuInput" placeholder="Digite algo aqui" />
+  <button onclick="mostrarNoConsole()">Exibir no console</button> 
+
+  <div id="cor">Cor mudando</div>
+  <button onclick="mudarCor()">Mudar cor de fundo</button>
+
 </body>
 </html>
